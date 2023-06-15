@@ -6,27 +6,33 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Frontend Mentor - 1° Desafio</title>
   <link rel="shortcut icon" href="images/favicon-32x32.png" type="image/x-icon">
-  <link rel="stylesheet" href="style.css">
+  <!-- Interno -->
+  <link rel="stylesheet" href="/style/style.css">
+  <!-- Externo -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+
 </head>
 
 <body>
-  <div id="container">
-    <div id="blocoCentral">
-      <div class="blocos">
-        <img src="images/image-product-desktop.jpg" alt="Luciano hulk" id="perfumeIMG">
+  <div class="container">
+    <div id="blocoCentral" class="row">
+      <div class="col-6 col-md-12" id="img-d">
+
       </div>
-      <div class="blocos">
-        <p class="perfume">PERFUME</p>
+      <div class="col-6 col-md-12" id="content">
+        <p id="perfume">PERFUME</p>
         <h1>Gabrielle Essence Eau De Parfum</h1>
-        <p>A floral, solar and voluptious interpretation composed by Oliver poogle, Perfumer Creator for the House of CHANEL.</p>
+        <p id="paragrafo">A floral, solar and voluptuous interpretation composed by Oliver Polge, Perfumer-Creator for
+          the House of CHANEL.</p>
+        <div id="preco">
+          <h1>$149.99 <span class="precoAnterior">$169.99</span></h1>
 
-        <span class="preco">R$ 149.99</span>
-        <span class="precoAntigo">R$ 169.99</span>
-
-        <button type="button" id="botaoComprar">
-          <img src="images/icon-cart.svg" alt="Icone Luciano hulk">
-          Add to Cart
-        </button>
+          <button id="botao">
+            <img src="images/icon-cart.svg" alt="alt" id="btn">
+            Add to Cart
+          </button>
+        </div>
       </div>
     </div>
   </div>

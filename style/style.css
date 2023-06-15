@@ -1,0 +1,94 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: "First-Font";
+    src: url(../font/Braveold-Bold.otf);
+}
+
+@font-face {
+    font-family: "Second-Font";
+    src: url(https://fonts.google.com/specimen/Fraunces);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* background-color: hsl(30, 38%, 92%) !important; */
+    background-color: BLACK !important;
+}
+
+#blocoCentral {
+    width: 650px;
+    margin: 0 auto;
+    margin-top: 70px;
+    
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 10px;
+}
+
+#img-d {
+    background-image: url(../images/image-product-desktop.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    border-radius: 10px;
+}
+
+#perfume {
+    color: hsl(228, 12%, 48%);
+    letter-spacing: 7px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 20px;
+    font-size: 14px;
+}
+
+#content > h1 {
+    font-family: "Second-Font";
+    font-weight: 900;
+    width: 250px;
+    padding-bottom: 10px;
+    font-size: 40px;
+
+    color: hsl(212, 21%, 14%);
+}
+
+#paragrafo {
+    color: hsl(228, 12%, 48%);
+    text-align: left;
+}
+
+#preco > h1 {
+    color: hsl(158, 36%, 37%);
+    font-family: "First-Font";
+    font-weight: 900;
+}
+
+.precoAnterior {
+    font-size: 14px;
+    font-family: "Second-Font";
+    color: hsl(228, 12%, 48%);
+    text-decoration: line-through;
+    vertical-align: middle;
+    padding-left: 20px;
+ 
+}
+
+#botao {
+    background-color: hsl(158, 36%, 37%);
+    
+    border: none;
+    border-radius: 10px;
+    width: 100%;
+    color: hsl(0, 0%, 100%);
+    font-weight: 500;
+    margin: 20px 0px;
+    padding: 10px;
+}
+
+#botao:hover {
+    background-color: hsl(158, 55%, 22%);
+}
