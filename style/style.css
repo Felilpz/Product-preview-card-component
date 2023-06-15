@@ -104,8 +104,9 @@ body {
     cursor: pointer;
 }
 
-.precos #btn:hover {
+.conteudo #btn:hover {
     background-color: hsl(157, 51%, 11%);
+    transition: .5s;
 }
 
 @media only screen and (max-width: 576px) {
